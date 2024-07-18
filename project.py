@@ -4,7 +4,7 @@ diastolic = int(input("Enter diastolic pressure: "))
 if systolic < 120 and diastolic < 80:
   bp_result = "Normal"
 elif systolic < 130 and diastolic < 80:
-  bp_result = "Elevated"
+  bp_result = "Higher"
 elif systolic < 140 or diastolic < 90:
   bp_result = "Stage 1 Hypertension"
 else:
